@@ -31,8 +31,8 @@ java -cp bin ro2021recv <output_file> <port>
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `output_file` | Specifies the file where received data will be stored | `output.png` |
-| `port` | Specifies the port where the server listens | `5000` |
+| `output_file` | File where received data will be stored | `output.png` |
+| `port` | Port where the server listens | `5000` |
 
 ##### Example
 ```bash
@@ -45,10 +45,10 @@ java -cp bin ro2021recv output.png 5000
 ```
 | Option | Description | Example |
 |--------|-------------|---------|
-| `-d drop_rate` | Specifies the probability to drop packets | `-d 0.1` |
-| `-m min_delay` | Specifies the minimum transmission delay in milliseconds | `-m 5` |
-| `-r rand_delay` | Specifies the maximum transmission delay in milliseconds | `-r 15` |
-| `-p port` | Specifies the port where the router listens | `-p 6000` |
+| `-d drop_rate` | Probability to drop packets | `-d 0.1` |
+| `-m min_delay` | Minimum transmission delay in milliseconds | `-m 5` |
+| `-r rand_delay` | Maximum transmission delay in milliseconds | `-r 15` |
+| `-p port` | Port where the router listens | `-p 6000` |
 
 ##### Example
 ```bash
@@ -61,11 +61,11 @@ java -cp bin ro2021send <input_file> <server_ip> <server_port> <router_ip> <rout
 ```
 | Option | Description | Example |
 |--------|-------------|---------|
-| `input_file` | Specifies the file to be sent | `test.png` |
-| `server_ip` | Specifies the server IP address | `127.0.0.1` |
-| `server_port` | Specifies the port where the server is listening | `5000` |
-| `router_ip` | Specifies the router IP address | `127.0.0.1` |
-| `router_port` | Specifies the port where the router is listening | `6000` |
+| `input_file` | File to be sent | `test.png` |
+| `server_ip` | Server IP address | `127.0.0.1` |
+| `server_port` | Port where the server is listening | `5000` |
+| `router_ip` | Router IP address | `127.0.0.1` |
+| `router_port` | Port where the router is listening | `6000` |
 
 ##### Example
 ```bash
